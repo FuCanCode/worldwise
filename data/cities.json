@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Amsterdam",
+      "country": "Netherlands (Kingdom of the)",
+      "date": "2024-08-01T08:16:17.909Z",
+      "emoji": "🇳🇱",
+      "notes": "",
+      "position": {
+        "lat": 52.399067302933304,
+        "lng": 4.94384765625
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Babiak",
+      "country": "Poland",
+      "date": "2024-08-01T08:16:58.761Z",
+      "emoji": "🇵🇱",
+      "notes": "",
+      "position": {
+        "lat": 52.32191088594773,
+        "lng": 18.676757812500004
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Hartha",
+      "country": "Germany",
+      "date": "2024-08-01T09:30:31.762Z",
+      "emoji": "🇩🇪",
+      "notes": "asdads",
+      "position": {
+        "lat": 51.11128208389564,
+        "lng": 12.978973388671875
+      },
+      "id": 98443201
+    }
+  ]
+}
