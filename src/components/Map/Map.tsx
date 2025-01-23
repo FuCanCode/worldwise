@@ -56,7 +56,7 @@ function Map() {
           // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
-        {cities.map((c) => {
+        {cities ? cities.map((c) => {
           const position: LatLngExpression = [c.position.lat, c.position.lng];
           return (
             <Marker position={position} key={c.id}>
@@ -65,7 +65,7 @@ function Map() {
               </Popup>
             </Marker>
           );
-        })}
+        }) : ""}
         {/* <Marker position={mapPosition}>
           <Popup>
             A pretty CSS3 popup. <br /> Easily customizable.

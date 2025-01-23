@@ -37,6 +37,7 @@ export function CitiesContextProvider({ children }: { children: ReactNode }) {
     dispatch({ type: "loading" });
     try {
       const res = await fetch(`${BASE_URL}/cities`);
+      if (!res.ok) throw Error("404")
 
       const cities: CityProps[] = await res.json();
 
